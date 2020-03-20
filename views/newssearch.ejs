@@ -1,0 +1,35 @@
+<%- include ("partials/header.ejs") %>
+<link rel="stylesheet" href="newssearch.css"> 
+
+<h1><i class="far fa-newspaper"></i>Select a source according to a category.</h1>
+<div class="container">
+    <form action="/news" method="GET">
+        <input id="cc" type="text" placeholder="select a source" list="country" name="news">
+        <input class="btn btn-warning" id="dd" type="submit">
+
+        <datalist id="country">
+            <option value="google-news">All</option>
+            <option value="google-news-in">All (India)</option>
+            <option value="the-hindu">All (India)</option>
+            <option value="the-times-of-india">All (India)</option>
+            <option value="bbc-news">All</option>
+            <option value="fox-news">All</option>
+            <option value="abc-news">All</option>
+            <option value="nbc-news">All</option>
+            <option value="cnn">All</option>
+            <option value="ign">Gaming</option>
+            <option value="espn">Sports</option>
+            <option value="vice-news">Current Affairs and Documentary</option>
+            <option value="techradar">Gadgets and Technology</option>
+            <option value="engadget">Gadgets and Technology</option>
+            <option value="cnbc">Business and Market</option>
+            <option value="bloomberg">Business and Market</option>
+            <option value="mtv-news">Entertainment</option>
+            <option value="buzzfeed">Entertainment</option>
+            <option value="hacker-news">Computer Science</option>
+            <option value="national-geographic">Nature and Wildlife</option>
+        </datalist>
+    </form>
+</div>
+
+<%- include ("partials/footer.ejs") %> 
