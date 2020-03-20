@@ -63,6 +63,4 @@ app.get("/weather", function(req,res){
 });
 //.............................................................................................................................................
 
-app.listen(3000, function(){
-    console.log("website started!");
-});
+app.listen(process.env.PORT, process.env.IP);
