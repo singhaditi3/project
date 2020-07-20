@@ -1,22 +1,30 @@
 .thumbnail {
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    align-content: center;
     border: none;
     padding: 14px;
-    background: rgb(83, 95, 95);
+    background: rgb(1, 1, 54);
 }
 
 .container {
+    margin: auto;
+    display: inline-block;
     margin-left: 30%;
     margin-top: 4%;
 }
 
 h2 {
-    margin-top: 8%;
-    color: rgb(230, 227, 227);
+    align-self: center;
+    margin-top: 10%;
+    color: rgb(3, 3, 3);
     font-size: 36px;
 }
 
 body {
-    background: rgb(83, 95, 95);
+    background: url(https://39ag5r37ej175g8ao209xw3t-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/beach-sunset-bali.jpg);
+    background-size: 100%;
 }
 
 h4 {

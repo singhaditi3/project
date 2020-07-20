@@ -7,7 +7,7 @@
     height: 43px;
     background: none;
     border: 4px solid;
-    color: #d94ee6;
+    color: #09033f;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
@@ -15,48 +15,21 @@
     position: relative;
   }
   .btn:hover {
-    color: #d94ee6 !important;
+    color: #0e020f !important;
   }
   
-  .btn::before,.btn::after{
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 4px;
-    background: #353b48;
-    transform: skewX(50deg);
-    transition: .4s linear;
-  }
   
-  .btn::before{
-    top: -4px;
-    left: 10%;
-  }
-  
-  .btn::after{
-    bottom: -4px;
-    right: 10%;
-  }
-  
-  .btn:hover::before{
-    left: 80%;
-  }
-  
-  .btn:hover::after{
-    right: 80%;
-  }
   
 
 body {
-    background: url(./images/pinkdust.png);
+    background: url(https://cdn5.vectorstock.com/i/1000x1000/99/24/yellow-background-with-vintage-movie-camera-vector-20659924.jpg);
+    background-size: 70% auto;
+    background-repeat: repeat-y;
 }
 
-p {
-    color: rgb(226, 226, 226);
-}
 
 h1 {
-    color: rgb(226, 226, 226);
+    color:black;
 }
 
 img {
