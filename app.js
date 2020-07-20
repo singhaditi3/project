@@ -3,6 +3,8 @@ var app = express();
 var request = require("request");
 app.use(express.static("public"));
 
+process.env.databaseURL
+
 app.get("/", function(req,res){
     res.render("homepage.ejs");
 });
@@ -29,6 +31,6 @@ app.get("/movieresults", function(req,res){
 //---------------------------------------------------//
 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("started");
 });
